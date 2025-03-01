@@ -53,7 +53,7 @@ export default {
     },
     removeResource(itemId) {
       const itemidx = this.learningItems.findIndex(
-        (itme) => itemId.Id === itemId
+        (item) => item.id === itemId
       );
       this.learningItems.splice(itemidx, 1);
     },
